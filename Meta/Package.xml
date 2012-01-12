@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://typo3.org/ns/2008/flow3/package" version="1.0">
+	<key>TYPO3.TcPdf</key>
+	<title>TCPDF library wrapper</title>
+	<description/>
+	<version>5.9.118</version>
+	<constraints>
+		<depends>
+			<package>TYPO3.FLOW3</package>
+			<package>TYPO3.Fluid</package>
+		</depends>
+	</constraints>
+</package>

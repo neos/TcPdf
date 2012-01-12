@@ -1,0 +1,20 @@
+TYPO3:
+
+  # add some weird tags to the list of ignored tags
+  FLOW3:
+    reflection:
+      ignoredTags: ['class', 'brief', 'protected', 'public', 'pre']
+
+  TcPdf:
+    HtmlPdfView:
+      pageFormat: 'A4'
+      # P = portrait, L = landscape
+      pageOrientation: 'P'
+      # pt = point, mm = millimeter, cm = centimeter, in = inch
+      sizeUnit: 'mm'
+      font:
+        family: 'helvetica'
+        # Font style. Possible values are (case insensitive): empty string = regular, B = bold, I = italic, U = underline, D = line trough, O = overline. Or any combination. The default value is regular.
+        style: ''
+        size: 11
+
