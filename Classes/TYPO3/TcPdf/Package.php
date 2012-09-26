@@ -27,7 +27,7 @@ class Package extends BasePackage {
 	 * @return void
 	 */
 	public function boot(\TYPO3\FLOW3\Core\Bootstrap $bootstrap) {
-		require(__DIR__ . '/../Resources/Private/PHP/tcpdf/tcpdf.php');
+		require(__DIR__ . '/../../../Resources/Private/PHP/tcpdf/tcpdf.php');
 	}
 
 }
