@@ -1,1 +1,14 @@
-{"name":"typo3\/tcpdf","type":"flow3-library","description":"","version":"5.9.118","require":{"typo3\/flow3":"*"},"autoload":{"psr-0":{"TYPO3\\TcPdf":"Classes"}}}
+{
+	"name": "typo3\/tcpdf",
+	"type": "typo3-flow-package",
+	"description": "",
+	"version": "5.9.118",
+	"require": {
+		"typo3\/flow": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"TYPO3\\TcPdf": "Classes"
+		}
+	}
+}
