@@ -1,7 +1,7 @@
 TYPO3:
 
   # add some weird tags to the list of ignored tags
-  FLOW3:
+  Flow:
     reflection:
       ignoredTags: ['class', 'brief', 'protected', 'public', 'pre']
 
