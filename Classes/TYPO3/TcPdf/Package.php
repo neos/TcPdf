@@ -27,7 +27,8 @@ class Package extends BasePackage {
 	 * @return void
 	 */
 	public function boot(\TYPO3\Flow\Core\Bootstrap $bootstrap) {
-		require(__DIR__ . '/../../../Resources/Private/PHP/tcpdf/tcpdf.php');
+			// This is a workaround until Flow supports loading non-namespaced classes like TCPDF
+		require_once(FLOW_PATH_PACKAGES . 'Libraries/autoload.php');
 	}
 
 }

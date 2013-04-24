@@ -4,7 +4,8 @@
 	"description": "",
 	"version": "5.9.118",
 	"require": {
-		"typo3\/flow": "*"
+		"typo3\/flow": "*",
+		"tcpdf\/tcpdf": "*"
 	},
 	"autoload": {
 		"psr-0": {
