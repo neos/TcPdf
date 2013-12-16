@@ -5,7 +5,7 @@
 	"version": "5.9.118",
 	"require": {
 		"typo3\/flow": "*",
-		"tcpdf\/tcpdf": "*"
+		"tecnick.com\/tcpdf": "*"
 	},
 	"autoload": {
 		"psr-0": {
